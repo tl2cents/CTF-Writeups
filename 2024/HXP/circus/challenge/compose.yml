@@ -1,0 +1,13 @@
+# docker compose up
+
+services:
+  chall:
+    build:
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - 7007:1024
+    cap_add:
+      - SYS_ADMIN
+    security_opt:
+      - apparmor:unconfined

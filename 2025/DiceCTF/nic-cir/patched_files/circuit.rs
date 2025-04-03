@@ -472,7 +472,7 @@ impl<F: FancyBinary<Item = WireMod2> + CustomAND> CustomEvaluableCircuit<F> for 
     ) -> Result<bool, F::Error> 
     {
         let mut cache: Vec<Option<F::Item>> = vec![None; self.gates.len()];
-        let mut file = File::create("wires_truthe.txt").unwrap();
+        let mut file = File::create("wires_truth.txt").unwrap();
         writeln!(file, "Garbler Inputs:").unwrap();
         for (i, gate) in self.gates.iter().enumerate() {
             let q = 2;

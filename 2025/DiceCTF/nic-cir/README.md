@@ -1,7 +1,11 @@
 
 ## Writeup
 
-Solve it locally with the following command:
+Refer to: https://blog.tanglee.top/2025/04/03/Revisiting-Garbled-Circuit.html
+
+## Local Setup
+
+First patch the source code fancy-garbling based on files in [patched-files](./patched_files/). Solve it locally with the following command:
 
 ```bash
 cargo build --release

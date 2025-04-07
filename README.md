@@ -7,12 +7,15 @@ Archive writeups or exploits of ctf challenges, mainly crypto and blockchain. De
 <details>
 <summary><b>View Writeup List</b></summary>
 
-| CTF               | Challenge   | Category | Tags                          | Writeup                                                                                                 |
-| ----------------- | ----------- | -------- | ----------------------------- | ------------------------------------------------------------------------------------------------------- |
-| SECCON 2024 Final | RSA+        | Crypto   | RSA, Prime                    | [EXP](/2025/SECCON-Final/RSA+/)                                                                         |
-| SECCON 2024 Final | DLP+        | Crypto   | DLP, Prime                    | [EXP](/2025/SECCON-Final/DLP+/)                                                                         |
-| SECCON 2024 Final | hell summon | Crypto   | HNP-SUM                       | [EXP](/2025/SECCON-Final/hell_summon/)                                                                  |
-| DiceCTF           | nil-circ    | Crypto   | Garbled-Circuit, Free-XOR, OT | [EXP](/2025/DiceCTF/nic-cir/) [WP](https://blog.tanglee.top/2025/04/03/Revisiting-Garbled-Circuit.html) |
+| CTF               | Challenge    | Category          | Tags                                  | Writeup                                                                                                 |
+| ----------------- | ------------ | ----------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| SECCON 2024 Final | RSA+         | Crypto            | RSA, Prime                            | [EXP](/2025/SECCON-Final/RSA+/)                                                                         |
+| SECCON 2024 Final | DLP+         | Crypto            | DLP, Prime                            | [EXP](/2025/SECCON-Final/DLP+/)                                                                         |
+| SECCON 2024 Final | hell summon  | Crypto            | HNP-SUM                               | [EXP](/2025/SECCON-Final/hell_summon/)                                                                  |
+| DiceCTF           | nil-circ     | Crypto            | Garbled-Circuit, Free-XOR, OT         | [EXP](/2025/DiceCTF/nic-cir/) [WP](https://blog.tanglee.top/2025/04/03/Revisiting-Garbled-Circuit.html) |
+| PlaidCTF          | innov8       | Crypto            | Xorshift128, Double                   | [EXP](/2025/PlaidCTF/innov8/)                                                                           |
+| PlaidCTF          | Many Mellons | Crypto            | Nonlinear Invariant Subspace, KCA-CBC | [EXP](/2025/PlaidCTF/mellons/)                                                                          |
+| PlaidCTF          | hangman      | Crypto, Misc, Rev | Sbox, Affine Hash                     | [EXP](/2025/PlaidCTF/hangman/)                                                                          |
 
 </details>
 

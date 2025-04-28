@@ -1,7 +1,7 @@
 
 ## Writeup
 
-We need to recover a polynomial $`f(x) = \sum_{i=0}^{n-1} a_i x^i`$ over $`\mathbb{F}_{p}`$ with its coefficients $`a_i`$ in $`[-1, 0, 1]`$. Given only $`t = \lfloor \frac{n}{2} \rfloor`$ evaluations of $`(x_i, y_i=f(x_{i}))`$ where $x_i^n  + 1 \equiv 0 \pmod{p}`$, we can recover the coefficients of $`f(x)`$ using LLL since the solution coefficients are small (ternary).
+We need to recover a polynomial $`f(x) = \sum_{i=0}^{n-1} a_i x^i`$ over $`\mathbb{F}_{p}`$ with its coefficients $`a_i`$ in $`[-1, 0, 1]`$. Given only $`t = \lfloor \frac{n}{2} \rfloor`$ evaluations of $`(x_i, y_i=f(x_{i}))`$ where $`x_i^n  + 1 \equiv 0 \pmod{p}`$, we can recover the coefficients of $`f(x)`$ using LLL since the solution coefficients are small (ternary).
 
 My first trial is based on the following lattice construction (see [exp1.py](./exp1.py)):
 

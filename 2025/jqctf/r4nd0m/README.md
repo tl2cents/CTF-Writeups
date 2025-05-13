@@ -112,7 +112,7 @@ def server(x):
 def recover_x(query_func, max_bits=64):
     """
     query_func: return |x^y1| == |x^y2|
-    max_bits: maximun bits of secret x
+    max_bits: maximum bits of secret x
     """
     recovered = 0  # the recovered lsb r
     for i in range(max_bits):

@@ -66,6 +66,7 @@ def server_side_channel_oracle(input_num):
 flag 只有 17 字节（136 比特），并且已知格式 flag{XXX}，对于所有小于 103 的素数，它们的乘积大概 128 比特，如果可以恢复出 flag 模这些小素数的剩余类，即可恢复 flag。因此思路如下，我们固定输入的 `num = k * 2^136`，此时 `flag^num = flag + num`。对于每个小素数 p，我们生成若干随机的 `num = k * 2^136`，并且固定 `num % p` 的值（遍历 0, ...,p -1），我们发送足够多这样随机的 num, 此时
   - 如果恰好 `num = - flag % p`，则 server 端永远可以快速响应 `is_prime` 函数。
   - 否则，有极大概率出现 server 端不能快速响应 `is_prime` 函数的情况。
+  
 因此我们可以逐一恢复 `flag % p` 的值，最终恢复 flag, 本地 proof-of-concept 的实现参考 [local_solver.py](./local_solver.py)。
 
 ## EXP

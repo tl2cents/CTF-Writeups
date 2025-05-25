@@ -20,6 +20,7 @@ Archive writeups or exploits of ctf challenges, mainly crypto and blockchain. De
 | ACTF              | easy-log      | Crypto            | Customizable DLP                      | [WP&EXP](/2025/ACTF/easy-log)                                |
 | ACTF              | OhMyTetration | Crypto            | Super-logarithm                       | [WP&EXP](/2025/ACTF/OhMyTetration)                           |
 | 京麒CTF           | r4nd0m        | Crypto, Misc      | MT19937, Negative XOR                 | [WP&EXP](/2025/jqctf/r4nd0m)                                 |
+| 京麒CTF           | onelinecrypto | Crypto            | Side Channel Attack, is_prime         | [WP&EXP](/2025/jqctf/one-line-crypto)                        |
 
 </details>
 

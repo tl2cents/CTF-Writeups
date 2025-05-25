@@ -1,0 +1,1 @@
+assert __import__('re').fullmatch(br'flag\{[!-z]{11}\}',flag:=os.getenvb(b'FLAG')) and [is_prime(int(flag.hex(),16)^^int(input('🌌 '))) for _ in range(7^7)]

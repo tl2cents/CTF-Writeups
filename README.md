@@ -22,6 +22,7 @@ Archive writeups or exploits of ctf challenges, mainly crypto and blockchain. De
 | 京麒CTF           | r4nd0m        | Crypto, Misc      | MT19937, Negative XOR                 | [WP&EXP](/2025/jqctf/r4nd0m)                                 |
 | 京麒CTF           | onelinecrypto | Crypto            | Side Channel Attack, is_prime         | [WP&EXP](/2025/jqctf/one-line-crypto)                        |
 | R3CTF             | split3pig     | Crypto            | Coppersmith                           | [WP&EXP](/2025/R3CTF/split3pig)                              |
+| R3CTF             | r3tauq        | Crypto            | Quaternion Algebra, DLP, LLL          | [WP&EXP](/2025/R3CTF/r3tauq)                                 |
 
 </details>
 

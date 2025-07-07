@@ -21,7 +21,7 @@ $$
 \begin{cases}
 b_n = X b_0\\
 c_n = X c_0\\
-d_n = Y d_0
+d_n = X d_0
 \end{cases}
 $$
 
@@ -95,7 +95,7 @@ since $`\mathcal{L}`$ contains our target short vector $`t = (p + x, q + y, r \c
 See [exp.py](./exp.py) for details.
 
 
-## Recover $s \mod \phi(n)$
+### Recover $s \mod \phi(n)$
 
 By property 2, we can degenerate the discrete logarithm of the quaternion algebra to the discrete logarithm of $`\mathbb{F}_p$ and $\mathbb{F}_q`$
 
@@ -148,7 +148,7 @@ $$
 
 Let $`m =\textsf{lcm}(\textsf{ord}(g_p), \textsf{ord}(g_q))`$. Then we can recover $`s \mod m`$ by solving $`\log_{g_p} y_p`$ and $`\log_{g_q} y_q`$.
 
-## Recover the secret
+### Recover the secret
 
 We have recovered $`s_0 \equiv s \mod m`$ so far where $`m`$ is 508 bits while $`s = x\sum_{i=0}^{777} 2^{616i}`$ has a 616-bit unknown value $`x`$. Nevertheless, we can recover $`x`$ since it consists of 77 ascii letters. Again, we can apply LLL to find our target solution. We can compute $`x_0 \mod m`$ from
 

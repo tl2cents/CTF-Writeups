@@ -1,7 +1,7 @@
 
 ## Writeup
 
-I solved this challenge but some quaternion algebra but I am still unclear about the proofs of some conclusions on quaternion algebraic groups. I will directly use the conclusions that I found by guessing and testing in sagemath.
+I solved this challenge but I am still unclear about the proofs of some conclusions on quaternion algebraic groups. I will directly use the conclusions that I found by guessing and testing in sagemath.
 
 ## Quaternion Algebra
 
@@ -13,7 +13,8 @@ A quaternion algebra is a four-dimensional algebra over a ring. For `QuaternionA
 
 **The multiplication is not commutative on quaternion algebraic groups!** Let $`R = \mathbb{F}_p`$. This challenge involves two properties of quaternion algebraic groups:
 1. **Property 1. Power Formula**. The power formula of $`(a_0 + b_0 i + c_0 j + d_0 k)^n = a_n + b_n i + c_n j + d_n k`$ can be simplified as follows:
-    
+   
+
     $$
     \begin{cases}
     b_n = X b_0\\
@@ -21,25 +22,31 @@ A quaternion algebra is a four-dimensional algebra over a ring. For `QuaternionA
     d_n = Y d_0
     \end{cases}
     $$
-    
+
+
     For more details, see the [SECCON RSA 4.0](https://7rocky.github.io/en/ctf/other/seccon-ctf/rsa-4.0/) and [New Formula for Computing Quaternion Powers](https://www.scirp.org/pdf/am_2022033014505665.pdf).
 2. **Property 2. Group Homomorphism to $\mathbb{F}_p$**. We define the square abs mapping as:
-    
+   
+
     $$
     \textsf{abs}(a + bi + cj + dk) = a^2 - u b^2 - v c^2 + uvd^2 \mod p
     $$
-    
+
+
     which is a group homomorphism from the quaternion algebra to $\mathbb{F}_p$. This means:
-    
+
+
     $$
     \textsf{abs}(q_1 \cdot q_2) = \textsf{abs}(q_1) \cdot \textsf{abs}(q_2) \mod p
     $$
-    
+ 
     and implies that:
+    
     
     $$
     \textsf{abs}\left(q^n \right) = \textsf{abs}(q)^n \mod p
     $$
+
 
 
 > Some useful links for quaternion algebra in ctf: [SECCON 2023 Final: DLP 4.0, KEX 4.0](https://qiita.com/saitenntaisei/items/5f9caa9110fe38edbc82) and [IRISCTF 2025 knutsacque](https://blog.whale-tw.com/2025/01/06/irisctf-2025/#knutsacque).
@@ -141,7 +148,7 @@ y_q = \textsf{abs}\left([a, b, c, d]\right) \mod q \\
 \end{cases}
 $$
 
-Let $`m =\textsf{lcm}(\textsf{ord}(g_p), \textsf{ord}(g_q))`$. Then we can recover $`s \mod m`$ by solving $`\log_{g_p} y_p$ and $\log_{g_q} y_q`$.
+Let $`m =\textsf{lcm}(\textsf{ord}(g_p), \textsf{ord}(g_q))`$. Then we can recover $`s \mod m`$ by solving $`\log_{g_p} y_p`$ and $`\log_{g_q} y_q`$.
 
 ## Recover the secret
 

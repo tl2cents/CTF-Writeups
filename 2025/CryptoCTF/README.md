@@ -1,7 +1,7 @@
 
 ## Remarks
 
-We ([deebato](https://github.com/D33BaT0), [Threonine](https://github.com/Threonine), [tl2cents](https://github.com/tl2cents)) solved all the challenges in CryptoCTF 2025.
+We ([deebato](https://github.com/D33BaT0), [Threonine](https://github.com/Threonine), [tl2cents](https://github.com/tl2cents)) solved all the challenges in CryptoCTF 2025 as team `NeSE` and ended up in second place.
 
 Some brief writeups of challenges that I solved:
 

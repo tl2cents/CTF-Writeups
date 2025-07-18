@@ -3,7 +3,7 @@
 
 > Solved by [Threonine](https://github.com/Threonine), [deebato](https://github.com/D33BaT0) and me.
 
-This problem turns to the following system of equations:
+This challenge can be transformed into solving the following system of equations:
 
 ``` python
 import random
@@ -13,7 +13,7 @@ w = [int(s ^ r[i]).bit_count() for i in range(128)]
 # given r, w , recover s
 ```
 
-If you feed it to LLM like ChatGPT/Gemini/Claude, it will give you a correct solution, see [gpt_solve1.py](./gpt_solve1.py).
+If you feed it to an LLM like ChatGPT, Gemini, or Claude, it will return a correct solution. See [gpt_solve1.py](./gpt_solve1.py).
 
 
-> By the way, we wasted a lot of time on this problem because we were all on the wrong track: Ax = b in integer ring, then LLL and find binary solutions.
+> By the way, we ended up wasting quite a bit of time on this problem because we were all heading in the wrong direction. We approached it as solving $Ax=b$ over the integers, then applying LLL to find binary solutions. However, the lattice approach didn’t work in this case because the basis matrix was poorly structured.

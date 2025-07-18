@@ -39,7 +39,6 @@ def get_clean_eqs():
     # s1*f = (hm + r0*sk1)
     # (s1 - s0) f = r0(sk1 - sk0)
     # (s2 - s0) f = r0(sk2 - sk0)
-    # 未知量 r0, r1, r2, sk0, sk1, sk2， f, hm
     n_sample = 4
     pr = PolynomialRing(GF(n), ["sk0", "sk1", "sk2", "sk3", "f", "hm", "r0", "r1", "r2"])
     sk0, sk1, sk2, sk3, f, hm, r0, r1, r2 = pr.gens()

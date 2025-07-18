@@ -32,6 +32,15 @@ def get_pubkey(io:remote):
     res = io.recvline().decode().strip().split("pubkey = ")[1]
     return eval(res)
 
+# r0 = fG.x
+# r1 = (f+1)G.x
+# r2 = (f-1)G.x
+# s * (si + f) = (hm + r*sk)
+# s0*f = (hm + r0*sk0)
+# s1*f = (hm + r0*sk1)
+# (s1 - s0) f = r0(sk1 - sk0)
+# (s2 - s0) f = r0(sk2 - sk0)
+
 n_sample = 3
 pr = PolynomialRing(GF(n), ["sk0", "sk1", "sk2", "f", "hm", "r0", "r1", "r2"])
 sk0, sk1, sk2, f, hm, r0, r1, r2 = pr.gens()
@@ -54,21 +63,13 @@ for i in range(n_sample):
     io.close()
 
 I = Ideal(polys)
-solu = I.variety(proof=False)
+# solu = I.variety(proof=False)
 # solu = solve(polys, *variables, algorithm="msolve")
-print(f"Solutions: {solu = }")
+# print(f"Solutions: {solu = }")
 
-basis = I.groebner_basis(algorithm="msolve")
+basis = I.groebner_basis()
 print("Groebner Basis:")
 for b in basis:
     print(b)
     
 # then solve the system of equations, idk why I.variety() does not work in this case (maybe because there are too two solutions)
-# r0 = fG.x
-# r1 = (f+1)G.x
-# r2 = (f-1)G.x
-# s * (si + f) = (hm + r*sk)
-# s0*f = (hm + r0*sk0)
-# s1*f = (hm + r0*sk1)
-# (s1 - s0) f = r0(sk1 - sk0)
-# (s2 - s0) f = r0(sk2 - sk0)

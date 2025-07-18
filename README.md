@@ -7,22 +7,23 @@ Archive writeups or exploits of ctf challenges, mainly crypto and blockchain. De
 <details>
 <summary><b>View Writeup List</b></summary>
 
-| CTF               | Challenge     | Category          | Tags                                  | Writeup                                                      |
-| ----------------- | ------------- | ----------------- | ------------------------------------- | ------------------------------------------------------------ |
-| SECCON 2024 Final | RSA+          | Crypto            | RSA, Prime                            | [EXP](/2025/SECCON-Final/RSA+/)                              |
-| SECCON 2024 Final | DLP+          | Crypto            | DLP, Prime                            | [EXP](/2025/SECCON-Final/DLP+/)                              |
-| SECCON 2024 Final | hell summon   | Crypto            | HNP-SUM                               | [EXP](/2025/SECCON-Final/hell_summon/)                       |
-| DiceCTF           | nil-circ      | Crypto            | Garbled-Circuit, Free-XOR, OT         | [EXP](/2025/DiceCTF/nic-cir/) [WP](https://blog.tanglee.top/2025/04/03/Revisiting-Garbled-Circuit.html) |
-| PlaidCTF          | innov8        | Crypto            | Xorshift128, Double                   | [EXP](/2025/PlaidCTF/innov8/)                                |
-| PlaidCTF          | Many Mellons  | Crypto            | Nonlinear Invariant Subspace, KCA-CBC | [EXP](/2025/PlaidCTF/mellons/)                               |
-| PlaidCTF          | hangman       | Crypto, Misc, Rev | Sbox, Affine Hash                     | [EXP](/2025/PlaidCTF/hangman/)                               |
-| ACTF              | AAALLL        | Crypto            | SIS, Modulo LLL                       | [WP&EXP](/2025/ACTF/AAALLL)                                  |
-| ACTF              | easy-log      | Crypto            | Customizable DLP                      | [WP&EXP](/2025/ACTF/easy-log)                                |
-| ACTF              | OhMyTetration | Crypto            | Super-logarithm                       | [WP&EXP](/2025/ACTF/OhMyTetration)                           |
-| 京麒CTF           | r4nd0m        | Crypto, Misc      | MT19937, Negative XOR                 | [WP&EXP](/2025/jqctf/r4nd0m)                                 |
-| 京麒CTF           | onelinecrypto | Crypto            | Side Channel Attack, is_prime         | [WP&EXP](/2025/jqctf/one-line-crypto)                        |
-| R3CTF             | split3pig     | Crypto            | Coppersmith                           | [WP&EXP](/2025/R3CTF/split3pig)                              |
-| R3CTF             | r3tauq        | Crypto            | Quaternion Algebra, DLP, LLL          | [WP&EXP](/2025/R3CTF/r3tauq)                                 |
+| CTF               | Challenge        | Category          | Tags                                  | Writeup                                                      |
+| ----------------- | ---------------- | ----------------- | ------------------------------------- | ------------------------------------------------------------ |
+| SECCON 2024 Final | RSA+             | Crypto            | RSA, Prime                            | [EXP](/2025/SECCON-Final/RSA+/)                              |
+| SECCON 2024 Final | DLP+             | Crypto            | DLP, Prime                            | [EXP](/2025/SECCON-Final/DLP+/)                              |
+| SECCON 2024 Final | hell summon      | Crypto            | HNP-SUM                               | [EXP](/2025/SECCON-Final/hell_summon/)                       |
+| DiceCTF           | nil-circ         | Crypto            | Garbled-Circuit, Free-XOR, OT         | [EXP](/2025/DiceCTF/nic-cir/) [WP](https://blog.tanglee.top/2025/04/03/Revisiting-Garbled-Circuit.html) |
+| PlaidCTF          | innov8           | Crypto            | Xorshift128, Double                   | [EXP](/2025/PlaidCTF/innov8/)                                |
+| PlaidCTF          | Many Mellons     | Crypto            | Nonlinear Invariant Subspace, KCA-CBC | [EXP](/2025/PlaidCTF/mellons/)                               |
+| PlaidCTF          | hangman          | Crypto, Misc, Rev | Sbox, Affine Hash                     | [EXP](/2025/PlaidCTF/hangman/)                               |
+| ACTF              | AAALLL           | Crypto            | SIS, Modulo LLL                       | [WP&EXP](/2025/ACTF/AAALLL)                                  |
+| ACTF              | easy-log         | Crypto            | Customizable DLP                      | [WP&EXP](/2025/ACTF/easy-log)                                |
+| ACTF              | OhMyTetration    | Crypto            | Super-logarithm                       | [WP&EXP](/2025/ACTF/OhMyTetration)                           |
+| 京麒CTF           | r4nd0m           | Crypto, Misc      | MT19937, Negative XOR                 | [WP&EXP](/2025/jqctf/r4nd0m)                                 |
+| 京麒CTF           | onelinecrypto    | Crypto            | Side Channel Attack, is_prime         | [WP&EXP](/2025/jqctf/one-line-crypto)                        |
+| R3CTF             | split3pig        | Crypto            | Coppersmith                           | [WP&EXP](/2025/R3CTF/split3pig)                              |
+| R3CTF             | r3tauq           | Crypto            | Quaternion Algebra, DLP, LLL          | [WP&EXP](/2025/R3CTF/r3tauq)                                 |
+| CryptoCTF         | See subdirectory | Crypto            | See subdirectory                      | [WP&EXP](/2025/CryptoCTF)                                    |
 
 </details>
 
